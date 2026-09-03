@@ -1,0 +1,24 @@
+# ===== 权重文件 (weights) =====
+/checkpoints/
+/results/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# ===== 数据集 (datasets) =====
+/data/
+
+# ===== 日志文件 (logs) =====
+/log/
+/train.txt
+*.log
+nohup.out
+
+# ===== Python 缓存 =====
+__pycache__/
+*.py[cod]
+
+# ===== 生成产物 / 外部资料 =====
+/rexrank_mimic_test_ddatr.json
+*.pdf
